@@ -1,0 +1,402 @@
+.div{
+  position: absolute;
+ background-color: rgb(13, 13, 39);
+ width: 100%;
+ height: 100%;
+}
+
+.p1{
+  margin-top: 229px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+.p1:hover{color: white;}
+.p2{
+  position: absolute;
+  margin-top: -1px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+.p2:hover{color: white;}
+.p3{
+  margin-top: 45px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+.p3:hover{color: white;}
+
+.shadow1{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+    height: 321px;
+    margin-left: 200px;
+    margin-top:305px;
+}
+
+.div1{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(80, 80, 219);
+  padding: 20px;
+  width: 150px;
+    height: 277px;
+    margin-left: 200px;
+    margin-top: 203px;
+    position: relative;
+    z-index: 10;
+}
+
+.jeremy{
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 28px;
+
+}
+
+.div1 h5{
+  position: absolute;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 137px;
+}
+
+.div1 h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-top: 160px;
+  margin-left: 0px;
+}
+
+.shadow2{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(230, 133, 88);
+  padding: 20px;
+  width: 150px;
+  height: 165px;
+  margin-left: 455px;
+  margin-top: -315px;
+}
+
+.dots{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 129px;
+  width: 17px;
+  height: 5px;
+}
+
+.work{
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 99px;
+  width: 47px;
+  height: 47px;
+}
+
+.div2{
+  border-radius: 17px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+  height: 138px;
+  margin-left: 455px;
+  margin-top: -278px;
+    position: relative;
+    z-index: 10;
+}
+.div2:hover{
+  background-color: rgb(26, 26, 80);
+  opacity: 50%;
+}
+
+
+
+
+h5{
+  position: absolute;
+  color: white;
+  margin-top: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  position: absolute;
+  color: white;
+  margin-top: 63px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+h6{
+  position: absolute;
+  color: gray;
+  margin-top: 107px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.shadow3{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(88, 230, 152);
+  padding: 20px;
+  width: 150px;
+  height: 165px;
+  margin-left: 455px;
+  margin-top: 30px;
+}
+
+.exercise{
+  position: absolute;
+  margin-top: -20px;
+    margin-left: 97px;
+    width: 53px;
+    height: 49px;
+}
+
+.div3{
+  border-radius: 17px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+  height: 138px;
+  margin-left: 455px;
+  margin-top: 68px;
+    position: relative;
+    z-index: 10;
+}
+.div3:hover{
+  background-color: rgb(26, 26, 80);
+  opacity: 50%;
+}
+
+.shadow4{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(134, 187, 223);
+  padding: 20px;
+  width: 150px;
+  height: 165px;
+  margin-left: 709px;
+  margin-top: -462px;
+}
+
+.play{
+  position: absolute;
+  margin-top: -20px;
+    margin-left: 97px;
+    width: 53px;
+    height: 49px;
+}
+
+.div4{
+  border-radius: 17px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+  height: 138px;
+  margin-left: 709px;
+  margin-top: -424px;
+    position: relative;
+    z-index: 10;
+}
+.div4:hover{
+  background-color: rgb(26, 26, 80);
+  opacity: 50%;
+}
+
+.shadow5{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(115, 27, 173);
+  padding: 20px;
+  width: 150px;
+  height: 165px;
+  margin-left: 709px;
+  margin-top: 29px;
+}
+
+.social{
+  position: absolute;
+  margin-top: -20px;
+    margin-left: 97px;
+    width: 58px;
+    height: 56px;
+}
+
+.div5{
+  border-radius: 17px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+  height: 138px;
+  margin-left: 709px;
+  margin-top: 70px;
+    position: relative;
+    z-index: 10;
+}
+.div5:hover{
+  background-color: rgb(26, 26, 80);
+  opacity: 50%;
+}
+
+.shadow6{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(243, 118, 139);
+  padding: 20px;
+  width: 150px;
+  height: 165px;
+  margin-left: 963px;
+  margin-top: -466px;
+}
+
+.study{
+  position: absolute;
+  margin-top: -20px;
+    margin-left: 97px;
+    width: 58px;
+    height: 56px;
+}
+
+.div6{
+  border-radius: 17px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+  height: 138px;
+  margin-left: 963px;
+    margin-top: -428px;
+    position: relative;
+    z-index: 10;
+}
+.div6:hover{
+  background-color: rgb(26, 26, 80);
+  opacity: 50%;
+}
+
+
+
+.shadow7{
+  position: absolute;
+  border-radius: 25px;
+  background-color: rgb(238, 197, 85);
+  padding: 20px;
+  width: 150px;
+  height: 165px;
+  margin-left: 963px;
+  margin-top: 28px;
+}
+
+.selfcare{
+  position: absolute;
+  margin-top: -20px;
+    margin-left: 97px;
+    width: 58px;
+    height: 56px;
+}
+
+.div7{
+  border-radius: 17px;
+  background-color: rgb(26, 26, 80);
+  padding: 20px;
+  width: 150px;
+  height: 138px;
+  margin-left: 963px;
+    margin-top: 73px;
+    position: relative;
+    z-index: 10;
+}
+.div7:hover{
+  background-color: rgb(26, 26, 80);
+  opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
