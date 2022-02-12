@@ -6,30 +6,30 @@
 }
 
 .p1{
-  margin-top: 229px;
+  margin-top:223px ;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-transition: color 2s;
   transition: color 2s;
 }
-.p1:hover{color: white;}
+.p1:hover{color: white; cursor: pointer;}
 .p2{
   position: absolute;
-  margin-top: -1px;
+  margin-top: -4px;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-transition: color 2s;
   transition: color 2s;
 }
-.p2:hover{color: white;}
+.p2:hover{color: white;  cursor: pointer;}
 .p3{
-  margin-top: 45px;
+  margin-top: 41px;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-transition: color 2s;
   transition: color 2s;
 }
-.p3:hover{color: white;}
+.p3:hover{color: white;  cursor: pointer;}
 
 .shadow1{
   position: absolute;
@@ -37,9 +37,9 @@
   background-color: rgb(26, 26, 80);
   padding: 20px;
   width: 150px;
-    height: 321px;
-    margin-left: 200px;
-    margin-top:305px;
+    height: 296px;
+    margin-left: 111px;
+    margin-top: 81px;
 }
 
 .div1{
@@ -48,9 +48,9 @@
   background-color: rgb(80, 80, 219);
   padding: 20px;
   width: 150px;
-    height: 277px;
-    margin-left: 200px;
-    margin-top: 203px;
+    height: 272px;
+    margin-left: 109px;
+    margin-top: 188px;
     position: relative;
     z-index: 10;
 }
@@ -77,47 +77,64 @@
   margin-left: 0px;
 }
 
-.shadow2{
-  position: absolute;
-  border-radius: 25px;
-  background-color: rgb(230, 133, 88);
-  padding: 20px;
-  width: 150px;
-  height: 165px;
-  margin-left: 455px;
-  margin-top: -315px;
-}
-
 .dots{
   position: absolute;
-  margin-top: 10px;
-  margin-left: 129px;
-  width: 17px;
-  height: 5px;
+    margin-top: -3px;
+    margin-left: 171px;
+    width: 21px;
+    height: 5px;
 }
+.dots:hover{color: white;  cursor: pointer;}
 
-.work{
+.icon{
   position: absolute;
   margin-top: -20px;
-  margin-left: 99px;
+  margin-left: 143px;
   width: 47px;
   height: 47px;
 }
 
+.menuList{
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto auto  ;
+  grid-gap: 20px;
+  grid-gap: 55px 10px;
+  place-items: center;
+  margin-left: 300px;
+  margin-top: -278px;
+
+  
+  
+}
+
+.shadow2{
+  position: absolute;
+  border-radius: 25px;
+  padding: 20px;
+  width: 184px;
+    height: 123px;
+    margin-left: 0px;
+    margin-top: -35px;
+   
+}
+
 .div2{
+
   border-radius: 17px;
   background-color: rgb(26, 26, 80);
-  padding: 20px;
-  width: 150px;
-  height: 138px;
-  margin-left: 455px;
-  margin-top: -278px;
+ padding: 20px;
+ width: 184px;
+    height: 123px;
     position: relative;
-    z-index: 10;
+  z-index: 10;
 }
+
 .div2:hover{
-  background-color: rgb(26, 26, 80);
-  opacity: 50%;
+  background-color: rgb(35, 35, 110);
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
 
@@ -126,7 +143,7 @@
 h5{
   position: absolute;
   color: white;
-  margin-top: 7px;
+  margin-top: -7px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
@@ -147,7 +164,7 @@ h6{
   font-weight: 100;
 }
 
-.shadow3{
+/*.shadow3{
   position: absolute;
   border-radius: 25px;
   background-color: rgb(88, 230, 152);
@@ -322,7 +339,7 @@ h6{
 .div7:hover{
   background-color: rgb(26, 26, 80);
   opacity: 50%;
-}
+}*/
 
 
 
@@ -361,42 +378,3 @@ h6{
 
 
 
-/*.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/

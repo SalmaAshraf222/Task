@@ -1,19 +1,47 @@
 import React from "react";
+import Data from './Data.js'
+import Comp from './Comp.js';
 import './App.css';
 import jeremy from './images/image-jeremy.png';
-import work from './images/icon-work.svg';
-import dots from './images/icon-ellipsis.svg';
-import exercise from './images/icon-exercise.svg';
-import play from './images/icon-play.svg';
-import social from './images/icon-social.svg';
-import study from './images/icon-study.svg';
-import selfcare from './images/icon-self-care.svg';
 
 
+function App() {
+  return (
+    <div className="div">
+
+    <div> <div className="shadow1">
+<p className="p1">Daily</p>
+ <p className="p2">Weekly</p>
+  <p className="p3">Monthly</p> </div>
+<div className="div1">
+<img src={jeremy} className="jeremy"  />
+                  <h5>Report for </h5> 
+                    <h1>Jeremy
+                        Robson
+                    </h1> </div></div> 
+
+    <div className="menuList">                
+     {Data.map((Itm)=> {
+        return(
+            <Comp  image={Itm.image} name={Itm.name}
+            
+            time={Itm.time} last={Itm.last} color={Itm.color}/>
+
+        );
+
+         } )} </div>
+
+      </div> 
+      
+     
+
+ 
+  );}
+
+export default App
 
 
-
-function Design(){
+/*function Design(){
   return(
 <div className="div"> 
 
@@ -100,7 +128,7 @@ function Design(){
 
 }
 
-export default Design
+export default Design*/
 
 
 
@@ -110,28 +138,4 @@ export default Design
 
 
 
-/*import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;*/
