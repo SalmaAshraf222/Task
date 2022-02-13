@@ -17,7 +17,7 @@ function App() {
 <img src={jeremy} className="jeremy"  />
                   <h5>Report for </h5> 
                     <h1>Jeremy
-                        Robson
+                        Robsons
                     </h1> </div></div> 
 
     <div className="menuList">                
